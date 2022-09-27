@@ -1,1 +1,1 @@
-# rsschool-cv
+https://verbsrg.github.io/rsschool-cv/
