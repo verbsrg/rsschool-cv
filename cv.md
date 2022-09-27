@@ -14,7 +14,13 @@
     * React
     * Java
     * PHP
-5. Code example:
+5. Code example (some random part of my school project):
+    ```php
+        if(empty($currentUser) || $currentUser['role']!='admin'){
+        header('refresh: 3; url=./index.php');
+        die('This page is available only for administrators. Redirecting to homepage...');
+    }
+    ```
 6. School project written in PHP and designed with Bootstrap: 
     * https://github.com/verbsrg/gamer-events-web
 7. I'm in senior year of Bachelor's degree at faculty of Informatics and Statistics in Business and Economics university in Prague.
